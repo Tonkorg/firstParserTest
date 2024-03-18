@@ -18,7 +18,7 @@ public class Main {
                 Document doc = Jsoup.connect(url).get();
 
                 // Извлекаем таблицу по ее классу
-                Element table = doc.select("table.table.table-bordered").first();
+                Elements table = doc.getElementsByClass("table_free");
 
                 // Проверяем, что таблица была найдена
                 if (table != null) {
@@ -27,10 +27,8 @@ public class Main {
                     for (Element row : rows) {
                         // Извлекаем ячейки из строки
                         Elements cells = row.select("td");
-                        for (Element cell : cells) {
-                            // Выводим содержимое ячейки
-                            System.out.print(cell.text() + "\t");
-                        }
+                        System.out.print(cells.text() + "\t");
+
                         System.out.println(); // Переход на новую строку после каждой строки таблицы
                     }
                 } else {
