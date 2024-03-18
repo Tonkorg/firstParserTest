@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80503589-76a7-4d9b-8f20-67ef863580a2" name="Changes" comment="parser">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tyaga/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tyaga/Main.java" afterDir="false" />
+    <list default="true" id="80503589-76a7-4d9b-8f20-67ef863580a2" name="Changes" comment="add print with stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tyaga/AvitoParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tyaga/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tyaga/CityParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AvitoParser.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710766921050</updated>
-      <workItem from="1710766922399" duration="1963000" />
+      <workItem from="1710766922399" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -97,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710768908469</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add print with stream">
+      <option name="closed" value="true" />
+      <created>1710769644497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710769644497</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +125,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add dependency" />
     <MESSAGE value="parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="parser" />
+    <MESSAGE value="add print with stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="add print with stream" />
   </component>
 </project>

@@ -8,7 +8,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.util.HashSet;
 
-public class Main {
+public class CityParser {
     public static void main(String[] args) {
         HashSet set = new HashSet();
         String url = "https://www.krylatskoye.ru/content/ratings/2021/09/0928.html";
