@@ -6,10 +6,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) {
-
+        HashSet set = new HashSet();
         String url = "https://www.krylatskoye.ru/content/ratings/2021/09/0928.html";
         try {
             // Получаем HTML-документ с помощью Jsoup
@@ -29,11 +30,15 @@ public class Main {
                     // Проверяем, что у нас есть как минимум две ячейки (столбца) в текущей строке
                     if (cells.size() >= 2) {
                         // Выводим содержимое второго столбца (индекс 1)
-                        System.out.print(cells.get(1).text() + "\t");
+                        //System.out.print(cells.get(1).text() + "\t");
+                        set.add(cells.get(1).text());
                     }
+
 
                     System.out.println(); // Переход на новую строку после каждой строки таблицы
                 }
+
+                set.stream().sorted().forEach(System.out::println);
             } else {
                 System.out.println("Таблица не найдена");
             }
